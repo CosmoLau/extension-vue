@@ -1,0 +1,42 @@
+<div>
+    <div id="app">
+        <!-- <my-counter></my-counter> -->
+
+        <h1>Extension Vue</h1>
+
+        <div class="box">
+
+            <ui-prop v-for="(value, key) in fileCount">
+                <ui-label slot="label">{{ key }}</ui-label>
+                <ui-input 
+                    slot="content" 
+                    readonly
+                    :value="value"
+                >
+                    <span slot="suffix">个文件</span>
+                </ui-input>
+            </ui-prop>
+
+            <ui-prop>
+                <ui-label slot="label">总计</ui-label>
+                <ui-input 
+                    slot="content" 
+                    readonly
+                    :value="fileNum"
+                >
+                    <span slot="suffix">个文件</span>
+                </ui-input>
+            </ui-prop>
+
+        </div>
+
+        <div style="text-align: center;">
+            <ui-button type="primary" @confirm="checkAssets">
+                <ui-icon value="refresh"></ui-icon>
+                刷新
+            </ui-button>
+        </div>
+
+    </div>
+    <!-- <h1 id="text"></h1> -->
+</div>

@@ -1,0 +1,28 @@
+#text {
+    color: var(--color-normal-contrast-weakest);
+    margin: auto;
+    width: 180px;
+}
+.counter {
+    text-align: center;
+}
+h1 {
+    /* 文本居中 */
+    text-align: center;
+}
+.box {
+    /* 外边距 10px */
+    margin: 10px;
+    /* 内边距 5px */
+    padding: 5px;
+    /* 虚线边框 */
+    border-style: dashed;
+    /* 边框宽度 1px */
+    border-width: 1px;
+    /* 边框颜色为灰色 */
+    border-color: gray;
+}
+ui-prop {
+    /* 添加上边距 5px */
+    margin-top: 5px;
+}
