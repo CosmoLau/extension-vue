@@ -1,8 +1,8 @@
 # Cocos Creator 3.7.3 扩展开发示例模板
 
-Cocos 论坛
+[Cocos 论坛](https://forum.cocos.org/t/topic/150217)
 
-B 站视频教程
+[B 站视频教程](https://www.bilibili.com/video/BV1VX4y1t7tH/)
 
 ## 快速开始
 
